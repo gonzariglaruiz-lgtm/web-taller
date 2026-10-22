@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/main.js" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gonzalo Rigla">
+    <meta name="description" content="Web Inicial">
+    <meta name="keywords" content="HTML, informática, Ordenadores">
+
+    <title>Web Taller</title>
+</head>
+
+<body>
+
+    <header id="inici">
+        <h1>My Web</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#inici">Inici</a></li>
+                <li><a href="#serveis">Serveis</a></li>
+                <li><a href="#sollicitud">Sol·licitud</a></li>
+            </ul>
+        </nav>
+
+        <button id="btn-theme">Mode Fosc</button>
+    </header>
+
+    <main>
+
+        <section id="serveis">
+            <h2>Serveis</h2>
+
+            <div class="serveis-container">
+
+                <article>
+                    <h3>Reparació d'ordinadors</h3>
+
+                    <p>
+                        Reparem ordinadors amb problemes de maquinari
+                        i programari.
+                    </p>
+
+                    <ul>
+                        <li>Ordinador que no encén</li>
+                        <li>Problemes amb el sistema operatiu</li>
+                    </ul>
+
+                    <img src="assets/img/malware.jpg"
+                         alt="Malware">
+                </article>
+
+                <article>
+                    <h3>Manteniment de xarxes</h3>
+
+                    <p>
+                        Realitzem manteniment de xarxes per garantir
+                        una bona connexió a Internet.
+                    </p>
+
+                    <ul>
+                        <li>Problemes de connexió</li>
+                        <li>Configuració del router</li>
+                    </ul>
+
+                    <img src="assets/img/xarxes.jpg"
+                         alt="Manteniment de xarxes">
+                </article>
+
+                <article>
+                    <h3>Neteja i manteniment</h3>
+
+                    <p>
+                        Fem neteja i manteniment dels components
+                        per evitar avaries i sobreescalfaments.
+                    </p>
+
+                    <ul>
+                        <li>Pols en els ventiladors</li>
+                        <li>Sobreescalfament</li>
+                    </ul>
+
+                    <img src="assets/img/manteniment.jpg"
+                         alt="Neteja d'ordinadors">
+                </article>
+
+            </div>
+        </section>
+
+        <section id="sollicitud">
+            <h2>Sol·licitud</h2>
+
+            <form action="#" method="post">
+
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom">
+
+                <br><br>
+
+                <label for="email">Correu electrònic:</label>
+                <input type="text" id="email" name="email">
+
+                <br><br>
+
+                <label for="telefon">Telèfon:</label>
+                <input type="tel" id="telefon" name="telefon">
+
+                <br><br>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data">
+
+                <br><br>
+
+                <p>Tipus de servei:</p>
+
+                <input type="radio"
+                       id="reparacio"
+                       name="servei"
+                       value="reparacio">
+
+                <label for="reparacio">Reparació</label>
+
+                <input type="radio"
+                       id="xarxes"
+                       name="servei"
+                       value="xarxes">
+
+                <label for="xarxes">Manteniment de xarxes</label>
+
+                <input type="radio"
+                       id="neteja"
+                       name="servei"
+                       value="neteja">
+
+                <label for="neteja">Neteja i manteniment</label>
+
+                <br><br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section>
+
+        <section>
+            <h2>On ens trobem</h2>
+
+            <address>
+                Carrer Major, 25<br>
+                46001 València<br>
+                Espanya<br>
+                Email: gonza.riglaruiz@gmail.com
+            </address>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Web - Gonzalo Rigla</p>
+
+        <p>
+            Aquest contingut està llicenciat sota una
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+               target="_blank"
+               rel="license">
+                Llicència Creative Commons BY 4.0
+            </a>.
+        </p>
+    </footer>
+
+</body>
+
+</html>

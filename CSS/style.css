@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    color: rgb(19, 223, 223);
+}
+
+article {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+article h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+article p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: rgb(19, 223, 223);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(10, 170, 170);
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.serveis-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.serveis-container article {
+    flex: 1;
+}
+
+#btn-theme {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-theme:hover {
+    background-color: #555;
+}
+
+/* MODO OSCURO CORPORATIVO */
+
+body.dark-mode {
+    background-color: #101827;
+    color: #e2e8f0;
+}
+
+body.dark-mode header {
+    background-color: #0b1220;
+    color: #f1f5f9;
+}
+
+body.dark-mode h1,
+body.dark-mode h2 {
+    color: #22d3ee;
+}
+
+body.dark-mode article {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode a {
+    color: #22d3ee;
+}
+
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+    background-color: #1e293b;
+    color: #f1f5f9;
+    border: 1px solid #475569;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+    color: #94a3b8;
+}
+
+body.dark-mode button[type="submit"] {
+    background-color: #0891b2;
+    color: white;
+}
+
+body.dark-mode button[type="submit"]:hover {
+    background-color: #0e7490;
+}
+
+body.dark-mode footer {
+    background-color: #0b1220;
+    color: #e2e8f0;
+}
+
+body.dark-mode #btn-theme {
+    background-color: #22d3ee;
+    color: #0b1220;
+}
+
+body.dark-mode #btn-theme:hover {
+    background-color: #67e8f9;
+}
